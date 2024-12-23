@@ -1,0 +1,6 @@
+﻿className,name,description,simpleDescription,isAvoidable,isSudden,floatParams,timeDuration,delete,disabled
+FirstTestActivity,테스트 액티비티 1,테스트 액티비티1,유저에게 보여지는 설명,TRUE,FALSE,"1.0f,2.4f,3.2f",1,FALSE,FALSE
+SestActivity,테스트 2,테스트 액티비티2,hello,TRUE,TRUE,,32313,FALSE,FALSE
+TTestActivity3,액티비티 3,테스트 액티비티3,hi,TRUE,TRUE,"34.3f",4,FALSE,FALSE
+asdf123,테스트 액티비티 2,테스트 액티비티4,유저에게 보여지는 설명,FALSE,TRUE,"1.0f",123123,FALSE,FALSE
+disableTest,테스트 3,테스트 액티비티5,hello,FALSE,FALSE,,1,FALSE,TRUE

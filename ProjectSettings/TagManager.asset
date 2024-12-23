@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BattleActor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - over UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UnderUI
+    uniqueID: 100831197
+    locked: 0
+  - name: Character
+    uniqueID: 2868613305
+    locked: 0
+  - name: PopUpChar
+    uniqueID: 2512822669
+    locked: 0
+  - name: Particle
+    uniqueID: 1683841217
+    locked: 0
+  - name: UI
+    uniqueID: 3445788541
+    locked: 0
+  - name: overUI
+    uniqueID: 719115839
+    locked: 0
+  - name: PopupUI
+    uniqueID: 4151326351
+    locked: 0
