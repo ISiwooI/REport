@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81876f44240ab343b9587bfddd4eb99, type: 3}
+  m_Name: CardSprites
+  m_EditorClassIdentifier: 
+  none: {fileID: 2172342012233351780, guid: 0d7d0bf8307514eaf81aa72f558d3fb4, type: 3}
+  sprites:
+  - {fileID: 21300000, guid: 8033ceef41a18e145912290dcfcd3445, type: 3}
+  - {fileID: 21300000, guid: b8899c0da2228a54688b7e582d7b48f4, type: 3}
+  - {fileID: 21300000, guid: 6b3705a4dc3687a409be7cd01cddfe5c, type: 3}
+  - {fileID: 21300000, guid: dfa2510d604073a4cb735c5a006161f0, type: 3}
+  - {fileID: 21300000, guid: 60e90b2d4a22c3a4cbfe1c697185f5a9, type: 3}
+  - {fileID: 21300000, guid: 95e543cd537430f42bae27386586da52, type: 3}
+  - {fileID: 21300000, guid: 3466d631956029744b3e10be6e6a6879, type: 3}
+  - {fileID: 21300000, guid: 5245ff9df233fec43bf3a82cb476fc5a, type: 3}
+  - {fileID: 21300000, guid: 9240e0d554b4a974e8970ab4b969c16e, type: 3}
+  - {fileID: 21300000, guid: c73dcc3a83eb9f745a367583ae911530, type: 3}
+  - {fileID: 21300000, guid: 22ebfe213bb77e74da76cb88740a14f4, type: 3}
+  - {fileID: 21300000, guid: 51ba9d1223f4a4b45896a34d5c023b0f, type: 3}
+  - {fileID: 21300000, guid: 2ae168d9da65f6340a04d907007a6420, type: 3}
+  - {fileID: 21300000, guid: b872c0dce6b0c48438ec17bf9c4d3979, type: 3}
+  - {fileID: 21300000, guid: b9b9aaa939f103b47abaa38de95edeb0, type: 3}
+  - {fileID: 21300000, guid: a216163cb111f1742b5cd55d87f541e5, type: 3}
+  - {fileID: 21300000, guid: cff555758cb2c6a42a11b4b6ac1c2918, type: 3}
+  - {fileID: 21300000, guid: 6da6abbdc467b9548b98a5fb7d64156e, type: 3}
+  - {fileID: 21300000, guid: eba7ff21d38dd62438b3c4532e0dc55c, type: 3}
+  - {fileID: 21300000, guid: 2d9615571d37e5a4383b5e590e4973d8, type: 3}
+  - {fileID: 21300000, guid: 5b4cf44aa6a927a4fb3f04ec7b1513e3, type: 3}

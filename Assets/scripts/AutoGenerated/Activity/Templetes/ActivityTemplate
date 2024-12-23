@@ -1,0 +1,51 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class /*ActivityNameStart*//*ActivityNameEnd*/ : Activity
+{
+
+
+    //ParamsStart
+    //ParamsEnd
+    public /*ActivityNameStart*//*ActivityNameEnd*/(){
+        
+        _timeDuration =/*timeDurationStart*//*timeDurationEnd*/ ;
+        _simpleDescription = /*simpleDescriptionStart*//*simpleDescriptionEnd*/;
+        _isAvoidable =/*isAvoidableStart*//*isAvoidableEnd*/ ;
+        _isSudden = /*isSuddenStart*//*isSuddenEnd*/;
+        _name = /*nameStart*//*nameEnd*/;
+        
+    }
+
+
+
+
+public override void DoActivity(ref InGameManager inGameManager)
+{
+    //Don't Touch
+    /*DescriptionStart
+
+    DescriptionEnd*/
+    //Don't Touch
+
+
+    throw new System.NotImplementedException();
+}
+
+public override ActivityKind GetKind()
+{
+    return ActivityKind./*EnumStart*//*EnumEnd*/;
+}
+
+public override bool isSameKind(ActivityKind activityKind)
+{
+    return activityKind == ActivityKind./*EnumStart*//*EnumEnd*/;
+}
+public override IEnumerator ActivityCoroutine(InGameManager inGameManager)
+{
+
+    yield break;
+}
+
+}
