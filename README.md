@@ -28,6 +28,7 @@
 
 ClassDiagram
 ![Image](https://github.com/user-attachments/assets/ea93f4a2-3038-40b1-918b-914fe0d361f3)
+### 주요 스크립트
 #### Singleton
 - [GameManager](https://github.com/ISiwooI/REport/blob/master/Assets/scripts/Singletons/GameManager.cs)         : 씬 간 데이터 교환을 위해 싱글톤으로 구현한 클래스입니다. 게임의 진행 상황, 전투 결과 등을 임시로 저장합니다.
 - [SoundManager](https://github.com/ISiwooI/REport/blob/master/Assets/scripts/Singletons/SoundManager.cs)        : 게임 진행중 사운드 출력을 위한 오디오 소스 컴포넌트들이 속해있는 클래스입니다.
