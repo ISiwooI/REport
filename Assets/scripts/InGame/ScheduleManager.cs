@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.ObjectModel;
 using System.Linq;
 using UnityEngine.PlayerLoop;
-/*
+/*P
 UnityEngine.Object에서 파생되지 않은 커스텀 클래스는 
 Unity 에디터에서 구조체가 직렬화되는 방법과 비슷하게 값에 따라 인라인에서 직렬화됩니다.
  커스텀 클래스의 인스턴스에 대한 레퍼런스를 여러 다른 필드에 저장하면 직렬화할 때 별도의 오브젝트가 됩니다.

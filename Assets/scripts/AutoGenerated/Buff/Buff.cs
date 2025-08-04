@@ -57,22 +57,17 @@ public abstract class Buff
         inGameManager.OnGainMoney += OnGainMoney;
         inGameManager.OnGainMental += OnGainMental;
         inGameManager.OnGainStamina += OnGainStamina;
-        inGameManager.OnGainExp += OnGainExp;
         inGameManager.OnGetBuff += OnGetBuff;
         inGameManager.OnStackBuff += OnStackBuff;
         inGameManager.OnReleseBuff += OnReleseBuff;
         inGameManager.OnDoActivity += OnDoActivity;
-        inGameManager.OnTurnStart += OnTurnStart;
-        inGameManager.OnTurnEnd += OnTurnEnd;
         inGameManager.OnOneHourLeft += OnOneHourLeft;
         inGameManager.OnDayLeft += OnDayLeft;
         inGameManager.OnWeekLeft += OnWeekLeft;
         inGameManager.OnBuyItem += OnBuyItem;
         inGameManager.OnGetItem += OnGetItem;
         inGameManager.OnUseItem += OnUseItem;
-        inGameManager.OnStartBattle += OnStartBattle;
-        inGameManager.OnLevelUp += OnLevelUp;
-        inGameManager.OnGameOver += OnGameOver;
+
     }
     public void ReleseListener(InGameManager inGameManager)
     {
@@ -82,23 +77,16 @@ public abstract class Buff
         inGameManager.OnGainMoney -= OnGainMoney;
         inGameManager.OnGainMental -= OnGainMental;
         inGameManager.OnGainStamina -= OnGainStamina;
-        inGameManager.OnGainExp -= OnGainExp;
         inGameManager.OnGetBuff -= OnGetBuff;
         inGameManager.OnStackBuff -= OnStackBuff;
         inGameManager.OnReleseBuff -= OnReleseBuff;
         inGameManager.OnDoActivity -= OnDoActivity;
-
-        inGameManager.OnTurnStart -= OnTurnStart;
-        inGameManager.OnTurnEnd -= OnTurnEnd;
         inGameManager.OnOneHourLeft -= OnOneHourLeft;
         inGameManager.OnDayLeft -= OnDayLeft;
         inGameManager.OnWeekLeft -= OnWeekLeft;
         inGameManager.OnBuyItem -= OnBuyItem;
         inGameManager.OnGetItem -= OnGetItem;
         inGameManager.OnUseItem -= OnUseItem;
-        inGameManager.OnStartBattle -= OnStartBattle;
-        inGameManager.OnLevelUp -= OnLevelUp;
-        inGameManager.OnGameOver -= OnGameOver;
     }
     #region Listener
     //자원 소모
