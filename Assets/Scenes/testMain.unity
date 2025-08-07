@@ -10387,7 +10387,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: be63bd1bbc1230c4ab2d9af2147f5d96, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -18462,8 +18462,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 27436692}
   m_HandleRect: {fileID: 27436691}
   m_Direction: 2
-  m_Value: -0.00000021712249
-  m_Size: 0.7244026
+  m_Value: 0
+  m_Size: 0.72440255
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -19236,7 +19236,6 @@ MonoBehaviour:
     scheduleList: []
   selectableSchedule: []
   ActivityWindow: {fileID: 96206321}
-  LogWindow: {fileID: 1980289498}
   scheduleWindow: {fileID: 1708774766}
   ShopWindow: {fileID: 770589554}
   shopView: {fileID: 95643515}
@@ -19504,7 +19503,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1766450899}
   m_HandleRect: {fileID: 1766450898}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

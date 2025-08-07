@@ -85,6 +85,7 @@ public abstract class Skill
     public abstract bool isTargeting { get; }
     public virtual float[] floatParams { get; }
     public virtual int[] intParams { get; }
+    public abstract IEnumerator DoSkill(BattleManager battleManager, BattleActor caster, BattleActor target);
     public bool IsParametersValid(BattleManager battleManager, BattleActor caster, BattleActor target)
     {
         if (battleManager is null)
@@ -109,5 +110,4 @@ public abstract class Skill
     {
         return true;
     }
-    public abstract IEnumerator DoSkill(BattleManager battleManager, BattleActor caster, BattleActor target);
 }

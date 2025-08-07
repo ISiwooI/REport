@@ -477,7 +477,6 @@ public class InGameManager : MonoBehaviour
         }
 
         selectableSchedule.Clear();
-
     }
     public void DayLeft()
     {

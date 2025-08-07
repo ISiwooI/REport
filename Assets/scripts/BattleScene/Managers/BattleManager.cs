@@ -16,7 +16,7 @@ public class BattleManager : MonoBehaviour
     이펙트
     스킬 세부 구현
     카드 오브젝트
-*/
+*/  
     #region Pool
     [SerializeField] Transform EnemySpawnPos;
     [SerializeField] Transform[] EnemySlots;
